@@ -1,0 +1,52 @@
+/* common css start */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Poppins;
+  text-transform: capitalize;
+}
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  width: 870px;
+  margin: auto;
+}
+/* common css end */
+
+/* header css start */
+header {
+  background-color: #562eff;
+  padding: 10px 0;
+}
+.menubar {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 40px;
+}
+.logo span {
+  color: #fff;
+  margin-left: 5px;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+}
+.menu ul li a {
+  color: #fff;
+  margin-right: 36px;
+}
+.profile img {
+  width: 51px;
+}
+/* header css end */
